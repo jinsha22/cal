@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./cal.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <form action="">
+                <div class="display">
+                    <input id="result" type="text">
+                </div>
+                <div>
+                    <input onclick=" Allclear()" type="button" value="AC" class="ac c">
+                    <input onclick="  Delete()" type="button" value="DE" class="ac c">
+                    <input onclick=" displayData('.')" type="button" value="." class="c">
+                    <input onclick=" displayData('/')" type="button" value="/"  class="operator c">
+                </div>
+
+                <div>
+                    <input onclick=" displayData(7)" type="button" value="7">
+                    <input onclick=" displayData(8)" type="button" value="8">
+                    <input onclick=" displayData(9)" type="button" value="9">
+                    <input onclick=" displayData('*')" type="button" value="*"  class="operator c">
+                </div>
+
+                <div>
+                    <input onclick=" displayData(4)" type="button" value="4">
+                    <input onclick=" displayData(5)" type="button" value="5">
+                    <input onclick=" displayData(6)" type="button" value="6">
+                    <input onclick=" displayData('-')" type="button" value="-"  class="operator c">
+                </div>
+
+                <div>
+                    <input onclick=" displayData(1)" type="button" value="1">
+                    <input onclick=" displayData(2)" type="button" value="2">
+                    <input onclick=" displayData(3)" type="button" value="3">
+                    <input onclick=" displayData('+')" type="button" value="+"  class="operator c">
+                </div>
+
+                <div>
+                    <input onclick=" displayData('00')" type="button" value="00">
+                    <input onclick=" displayData(0)" type="button" value="0">
+                    <input onclick="  out()" type="button" value="=" class="equal">
+                </div>
+
+
+            </form>
+        </div>
+    </div>
+</body>
+<script src="./calc.js">
+
+</script>
+</html>
